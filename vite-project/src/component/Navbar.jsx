@@ -11,12 +11,12 @@ export default function Navbar() {
 
   return (
     <nav className="w-full h-24 flex flex-col justify-center items-center bg-white fixed z-20">
-      <div className="container mx-auto lg:px-6">
+      <div className="container mx-auto lg:px-40">
         <div className="lg:w-full w-11/12 mx-auto h-full flex justify-between items-center">
             <div className="flex flex-col gap-y-4">    
                 <div className="flex items-center gap-x-2">
                     <span className="flex items-center lg:text-5xl text-3xl">
-                        <button className="rounded-full py-1 text-white bg-[#3030a3] lg:text-5xl text-3xl outline-none border-none">Get</button>
+                        <button className="rounded-full py-1 text-white bg-[#3030a3] lg:text-5xl text-3xl outline-none border-none"> Get </button>
                         <p className="font-semibold leading-tight">Job</p>
                     </span>
                 </div>
